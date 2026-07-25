@@ -2,7 +2,7 @@ name: check-does-build-pr
 
 on:
   workflow_dispatch:  # 允许手动触发
-  pull_request:       # 保持PR触发
+  pull_request:       # 保持PR触发 
 
 jobs:
   build:
